@@ -10,11 +10,13 @@ The main steps covered:
 3. Generate coverage information
 4. Visualize data in IGV
 
+Go to docs and start with 01_qualitycontrol.md
+
 ```
 ├── README.md
 ├── docs/
-│   ├── 01_qualitycontrol.md = Starting with raw data & Quality control
-│   ├── 02_GCtrack.md = generate a GC track
+│   ├── 01_qualitycontrol.md 
+│   ├── 02_GCtrack.md 
 │   ├── 03_coverage.md
 │   └── 04_visualization_in_igv.md
 └── images/
