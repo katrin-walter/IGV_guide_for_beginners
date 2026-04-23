@@ -3,6 +3,8 @@ Welcome! This repository is a beginner-friendly walkthrough of how I used the In
 It's based on notes from my digital lab book and notes from ndombrowski.
 If you're new to bioinformatics or IGV, you're in the right place.
 
+IGV is used to visually explore sequencing data by loading a reference genome together with aligned reads, variants, or annotations. It lets you zoom down to individual bases, check how well your reads map to the reference, spot mismatches, gaps, SNPs, and indels, and verify the quality of your alignment.
+
 The main steps covered:
 
 1. Starting with raw data & Quality control 
