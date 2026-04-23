@@ -10,7 +10,7 @@ The main steps covered:
 3. Generate coverage information
 4. Visualize data in IGV
 
-
+```
 ├── README.md
 ├── docs/
 │   ├── 01_qualitycontrol.md = Starting with raw data & Quality control
@@ -18,3 +18,4 @@ The main steps covered:
 │   ├── 03_coverage.md
 │   └── 04_visualization_in_igv.md
 └── images/
+```
