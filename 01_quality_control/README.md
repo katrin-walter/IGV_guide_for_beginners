@@ -5,5 +5,5 @@ MultiQC report summarising both stages side by side
 
 
 Setup (once)
-bashmamba env create -f envs/qc.yml
-mamba activate qc
+   mamba env create -f 1_quality_control/environment.yml
+   mamba activate qc
