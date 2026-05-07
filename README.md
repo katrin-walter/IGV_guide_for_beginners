@@ -3,19 +3,25 @@ This project provides a directly applicable protocol for inspecting short-read a
 
 The main steps covered:
 
-1. Starting with raw data & Quality control 
-2. generate a GC track
-3. Generate coverage information
-4. Visualize data in IGV
-
-Go to docs and start with 01_qualitycontrol.md
-
 ```
 ├── README.md
-├── docs/
-│   ├── 01_qualitycontrol.md 
-│   ├── 02_GCtrack.md 
-│   ├── 03_coverage.md
-│   └── 04_visualization_in_igv.md
-└── images/
+├── 01_quality_control
+│   ├── README.md 
+│   ├── environment.yml
+│   └── run_qc.sh
+├── 02_genome_assembly
+│   ├── README.md
+│   ├── environment.yml
+│   └── run_assembly.sh
+└── 03_mapping
+│   ├── README.md
+│   ├── environment.yml
+│   └── run_maping.sh
 ```
+
+Visualize data 
+1. Load the reference genome into IGV
+2. Load the annotation file (optional)
+3. Index your GFF file
+4. Load the GC content track
+5. Load the read alignment (coverage)
