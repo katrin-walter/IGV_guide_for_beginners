@@ -5,6 +5,20 @@ This step runs FastQC on the raw input, trims adapters and low-quality bases
 with fastp, re-runs FastQC on the trimmed output, and aggregates everything
 into a single MultiQC report for side-by-side comparison.
 
+This protocol uses paired-end Illumina reads from a green macroalga as a
+worked example. The reads themselves are **not included in this repository**
+— bring your own paired-end FASTQ files to follow along.
+
+The script expects them at:
+
+```
+data/seq_1.fastq.gz
+data/seq_2.fastq.gz
+```
+
+Create the `data/` folder at the repository root and place your reads there
+(or adjust the `R1` / `R2` paths and `SAMPLE` name at the top of `run_qc.sh`).
+
 ## Tools
 
 | Tool    | Purpose                                  |
@@ -22,10 +36,10 @@ mamba activate qc
 
 ## Run
 
-Place the paired-end reads at `data/seq_1.fastq.gz` and `data/seq_2.fastq.gz`,
-then from the repository root:
+From the repository root:
 
 ```bash
+mamba activate qc
 bash 1_quality_control/run_qc.sh
 ```
 
