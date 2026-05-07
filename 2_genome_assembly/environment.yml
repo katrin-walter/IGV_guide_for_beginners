@@ -1,0 +1,8 @@
+name: assembly
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - getorganelle=1.7.*
+  - blast=2.16.*
+  - seqkit=2.8.*
