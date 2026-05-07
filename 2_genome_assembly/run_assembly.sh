@@ -17,7 +17,7 @@ R1="1_quality_control/trimmed/seq_1.trimmed.fastq.gz"
 R2="1_quality_control/trimmed/seq_2.trimmed.fastq.gz"
 
 OUT="2_organelle_assembly/results/${SAMPLE}_${ORGANELLE}"
-FINAL="2_organelle_assembly/${SAMPLE}.organelle.fasta"
+FINAL="2_organelle_assembly/${SAMPLE}.getorganelle.fasta"
 
 mkdir -p "$(dirname "${OUT}")"
 
