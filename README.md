@@ -1,9 +1,5 @@
-# IGV_guide_for_beginners
-Welcome! This repository is a beginner-friendly walkthrough of how I used the Integrative Genomics Viewer (IGV) to visualize short reads from chloroplast genomes. 
-It's based on notes from my digital lab book and notes from ndombrowski.
-If you're new to bioinformatics or IGV, you're in the right place.
-
-IGV is used to visually explore sequencing data by loading a reference genome together with aligned reads, variants, or annotations. It lets you zoom down to individual bases, check how well your reads map to the reference, spot mismatches, gaps, SNPs, and indels, and verify the quality of your alignment.
+# igv_variant_inspection
+This project provides a directly applicable protocol for inspecting short-read alignments in IGV (Integrative Genomics Viewer), covering three core tasks: visual verification of called variants, coverage analysis, and identification of mismatches. The workflow was developed using Illumina reads from a green macroalga aligned against its reference genome. Each step is documented to be reproducible on any BAM/reference pair, regardless of organism. The result is a concise, hands-on reference for quality-controlling variant calls before downstream analysis. It is aimed at users who need to move beyond automated caller output and confirm what the reads actually support.
 
 The main steps covered:
 
