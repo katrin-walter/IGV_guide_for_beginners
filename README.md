@@ -14,9 +14,9 @@ The main steps covered:
 │   ├── environment.yml
 │   └── run_assembly.sh
 └── 03_mapping
-│   ├── README.md
-│   ├── environment.yml
-│   └── run_maping.sh
+    ├── README.md
+    ├── environment.yml
+    └── run_maping.sh
 ```
 
 Visualize data 
